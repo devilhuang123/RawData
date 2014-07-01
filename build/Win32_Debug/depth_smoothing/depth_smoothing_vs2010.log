@@ -1,0 +1,44 @@
+﻿已經開始建置於 6/19/2014 8:32:32 PM。
+     1>節點 2 (build 目標) 上的專案 "C:\Program Files (x86)\Intel\PCSDK\sample\depth_smoothing\depth_smoothing_vs2010.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "build/Win32_Debug/depth_smoothing/depth_smoothing.unsuccessfulbuild"。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\PCSDK\/include" /I"C:\Program Files (x86)\Intel\PCSDK\/sample/common/include" /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build/Win32_Debug/depth_smoothing/" /Gd /TP /analyze- /errorReport:prompt src\depth_smoothing.cpp
+         depth_smoothing.cpp
+     1>src\depth_smoothing.cpp(37): warning C4244: 'return' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(62): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(129): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(129): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(136): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(136): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(145): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(146): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(171): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(172): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(180): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(181): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(182): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(183): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(190): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(191): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(192): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(193): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(201): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(202): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>src\depth_smoothing.cpp(222): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(223): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(398): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>src\depth_smoothing.cpp(400): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin/Win32/depth_smoothing_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../common/lib/Win32/v100 /LIBPATH:../../lib/Win32 /LIBPATH:"C:\Program Files (x86)\Intel\PCSDK\/lib/Win32" /LIBPATH:"C:\Program Files (x86)\Intel\PCSDK\/sample/common/lib/Win32/v100" libpxc_d.lib libpxcutils_d.lib freeglut.lib opengl32.lib glu32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"build/Win32_Debug/depth_smoothing/depth_smoothing_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\Intel\PCSDK\sample\depth_smoothing\bin\Win32\depth_smoothing_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/Win32/depth_smoothing_d.lib" /MACHINE:X86 build/Win32_Debug/depth_smoothing/depth_smoothing.obj
+         depth_smoothing_vs2010.vcxproj -> C:\Program Files (x86)\Intel\PCSDK\sample\depth_smoothing\bin/Win32/depth_smoothing_d.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin/Win32/depth_smoothing_d.exe;#1" /manifest build/Win32_Debug/depth_smoothing/depth_smoothing_d.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "build/Win32_Debug/depth_smoothing/depth_smoothing.unsuccessfulbuild"。
+         正在變更時間戳記 "build/Win32_Debug/depth_smoothing/depth_smoothing.lastbuildstate"。
+     1>專案 "C:\Program Files (x86)\Intel\PCSDK\sample\depth_smoothing\depth_smoothing_vs2010.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.91
